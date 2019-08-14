@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD20F54922FA7B330062E85E /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20F54822FA7B330062E85E /* PhotoDetailView.swift */; };
+		FD20F54B2300F5050062E85E /* PhotoMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20F54A2300F5050062E85E /* PhotoMetadata.swift */; };
+		FD20F54E230121AD0062E85E /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20F54D230121AD0062E85E /* CGFloat.swift */; };
+		FD20F55023012CD70062E85E /* PHAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD20F54F23012CD70062E85E /* PHAsset.swift */; };
+		FD20F5522301D1D80062E85E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD20F5512301D1D80062E85E /* UIKit.framework */; };
+		FDA6FB4B22F9AD3F00DC2B7D /* UIZoomNavigationControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA6FB4A22F9AD3F00DC2B7D /* UIZoomNavigationControllerViewController.swift */; };
+		FDAED51422EC7CC200FE61EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED51322EC7CC200FE61EA /* AppDelegate.swift */; };
+		FDAED51622EC7CC200FE61EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED51522EC7CC200FE61EA /* HomeViewController.swift */; };
+		FDAED51922EC7CC200FE61EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAED51722EC7CC200FE61EA /* Main.storyboard */; };
+		FDAED51B22EC7CC300FE61EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAED51A22EC7CC300FE61EA /* Assets.xcassets */; };
+		FDAED51E22EC7CC300FE61EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDAED51C22EC7CC300FE61EA /* LaunchScreen.storyboard */; };
+		FDAED52922EC7CC300FE61EA /* PhotoMetaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED52822EC7CC300FE61EA /* PhotoMetaTests.swift */; };
+		FDAED53422EC7CC300FE61EA /* PhotoMetaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED53322EC7CC300FE61EA /* PhotoMetaUITests.swift */; };
+		FDAED54222EC98E700FE61EA /* UIPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED54122EC98E700FE61EA /* UIPhotoCell.swift */; };
+		FDAED54622EC9CD500FE61EA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAED54522EC9CD500FE61EA /* Photos.framework */; };
+		FDAED54822ECB1CA00FE61EA /* UIColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED54722ECB1CA00FE61EA /* UIColumnFlowLayout.swift */; };
+		FDAED56B22ED229400FE61EA /* lgn.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDAED56D22ED229400FE61EA /* lgn.strings */; };
+		FDAED57022EF425300FE61EA /* UIPhotoCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED56F22EF425300FE61EA /* UIPhotoCellHeader.swift */; };
+		FDAED57C22F3261200FE61EA /* PhotoDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED57B22F3261200FE61EA /* PhotoDataCollection.swift */; };
+		FDAED57F22F3293500FE61EA /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED57E22F3293500FE61EA /* UIImageView.swift */; };
+		FDAED58122F471D700FE61EA /* FullPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED58022F471D700FE61EA /* FullPhotoViewController.swift */; };
+		FDAED58522F53E0500FE61EA /* UIZoomTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAED58422F53E0500FE61EA /* UIZoomTransitionAnimator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDAED52522EC7CC300FE61EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAED50822EC7CC200FE61EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAED50F22EC7CC200FE61EA;
+			remoteInfo = PhotoMeta;
+		};
+		FDAED53022EC7CC300FE61EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDAED50822EC7CC200FE61EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDAED50F22EC7CC200FE61EA;
+			remoteInfo = PhotoMeta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD20F54822FA7B330062E85E /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		FD20F54A2300F5050062E85E /* PhotoMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMetadata.swift; sourceTree = "<group>"; };
+		FD20F54D230121AD0062E85E /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		FD20F54F23012CD70062E85E /* PHAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAsset.swift; sourceTree = "<group>"; };
+		FD20F5512301D1D80062E85E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDA6FB4A22F9AD3F00DC2B7D /* UIZoomNavigationControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIZoomNavigationControllerViewController.swift; sourceTree = "<group>"; };
+		FDAED51022EC7CC200FE61EA /* PhotoMeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAED51322EC7CC200FE61EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDAED51522EC7CC200FE61EA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FDAED51822EC7CC200FE61EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDAED51A22EC7CC300FE61EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDAED51D22EC7CC300FE61EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDAED51F22EC7CC300FE61EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAED52422EC7CC300FE61EA /* PhotoMetaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMetaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAED52822EC7CC300FE61EA /* PhotoMetaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMetaTests.swift; sourceTree = "<group>"; };
+		FDAED52A22EC7CC300FE61EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAED52F22EC7CC300FE61EA /* PhotoMetaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMetaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDAED53322EC7CC300FE61EA /* PhotoMetaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMetaUITests.swift; sourceTree = "<group>"; };
+		FDAED53522EC7CC300FE61EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDAED54122EC98E700FE61EA /* UIPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPhotoCell.swift; sourceTree = "<group>"; };
+		FDAED54322EC9C9000FE61EA /* PhotoMeta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoMeta.entitlements; sourceTree = "<group>"; };
+		FDAED54522EC9CD500FE61EA /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		FDAED54722ECB1CA00FE61EA /* UIColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColumnFlowLayout.swift; sourceTree = "<group>"; };
+		FDAED56822ED21CB00FE61EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FDAED56C22ED229400FE61EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/lgn.strings; sourceTree = "<group>"; };
+		FDAED56F22EF425300FE61EA /* UIPhotoCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPhotoCellHeader.swift; sourceTree = "<group>"; };
+		FDAED57922F1D66000FE61EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FDAED57B22F3261200FE61EA /* PhotoDataCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataCollection.swift; sourceTree = "<group>"; };
+		FDAED57E22F3293500FE61EA /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		FDAED58022F471D700FE61EA /* FullPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FullPhotoViewController.swift; path = PhotoMeta/Sources/FullPhotoViewController.swift; sourceTree = SOURCE_ROOT; };
+		FDAED58422F53E0500FE61EA /* UIZoomTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIZoomTransitionAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDAED50D22EC7CC200FE61EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD20F5522301D1D80062E85E /* UIKit.framework in Frameworks */,
+				FDAED54622EC9CD500FE61EA /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAED52122EC7CC300FE61EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAED52C22EC7CC300FE61EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD20F54C230121930062E85E /* ExtendsObj */ = {
+			isa = PBXGroup;
+			children = (
+				FD20F54D230121AD0062E85E /* CGFloat.swift */,
+				FD20F54F23012CD70062E85E /* PHAsset.swift */,
+			);
+			path = ExtendsObj;
+			sourceTree = "<group>";
+		};
+		FDAED50722EC7CC200FE61EA = {
+			isa = PBXGroup;
+			children = (
+				FDAED51222EC7CC200FE61EA /* PhotoMeta */,
+				FDAED52722EC7CC300FE61EA /* PhotoMetaTests */,
+				FDAED53222EC7CC300FE61EA /* PhotoMetaUITests */,
+				FDAED51122EC7CC200FE61EA /* Products */,
+				FDAED54422EC9CD500FE61EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDAED51122EC7CC200FE61EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDAED51022EC7CC200FE61EA /* PhotoMeta.app */,
+				FDAED52422EC7CC300FE61EA /* PhotoMetaTests.xctest */,
+				FDAED52F22EC7CC300FE61EA /* PhotoMetaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDAED51222EC7CC200FE61EA /* PhotoMeta */ = {
+			isa = PBXGroup;
+			children = (
+				FDAED54322EC9C9000FE61EA /* PhotoMeta.entitlements */,
+				FDAED56E22EDEBA400FE61EA /* Sources */,
+				FDAED51722EC7CC200FE61EA /* Main.storyboard */,
+				FDAED51A22EC7CC300FE61EA /* Assets.xcassets */,
+				FDAED51C22EC7CC300FE61EA /* LaunchScreen.storyboard */,
+				FDAED51F22EC7CC300FE61EA /* Info.plist */,
+				FDAED56D22ED229400FE61EA /* lgn.strings */,
+			);
+			path = PhotoMeta;
+			sourceTree = "<group>";
+		};
+		FDAED52722EC7CC300FE61EA /* PhotoMetaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAED52822EC7CC300FE61EA /* PhotoMetaTests.swift */,
+				FDAED52A22EC7CC300FE61EA /* Info.plist */,
+			);
+			path = PhotoMetaTests;
+			sourceTree = "<group>";
+		};
+		FDAED53222EC7CC300FE61EA /* PhotoMetaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDAED53322EC7CC300FE61EA /* PhotoMetaUITests.swift */,
+				FDAED53522EC7CC300FE61EA /* Info.plist */,
+			);
+			path = PhotoMetaUITests;
+			sourceTree = "<group>";
+		};
+		FDAED54422EC9CD500FE61EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD20F5512301D1D80062E85E /* UIKit.framework */,
+				FDAED54522EC9CD500FE61EA /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDAED56E22EDEBA400FE61EA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FD20F54C230121930062E85E /* ExtendsObj */,
+				FDAED57D22F3270A00FE61EA /* ExtendsUI */,
+				FDAED57A22F325EC00FE61EA /* Models */,
+				FDAED51322EC7CC200FE61EA /* AppDelegate.swift */,
+				FDAED51522EC7CC200FE61EA /* HomeViewController.swift */,
+				FDAED58022F471D700FE61EA /* FullPhotoViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FDAED57A22F325EC00FE61EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDAED57B22F3261200FE61EA /* PhotoDataCollection.swift */,
+				FD20F54A2300F5050062E85E /* PhotoMetadata.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDAED57D22F3270A00FE61EA /* ExtendsUI */ = {
+			isa = PBXGroup;
+			children = (
+				FDAED54122EC98E700FE61EA /* UIPhotoCell.swift */,
+				FDAED56F22EF425300FE61EA /* UIPhotoCellHeader.swift */,
+				FDAED54722ECB1CA00FE61EA /* UIColumnFlowLayout.swift */,
+				FDAED57E22F3293500FE61EA /* UIImageView.swift */,
+				FDAED58422F53E0500FE61EA /* UIZoomTransitionAnimator.swift */,
+				FDA6FB4A22F9AD3F00DC2B7D /* UIZoomNavigationControllerViewController.swift */,
+				FD20F54822FA7B330062E85E /* PhotoDetailView.swift */,
+			);
+			path = ExtendsUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDAED50F22EC7CC200FE61EA /* PhotoMeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAED53822EC7CC300FE61EA /* Build configuration list for PBXNativeTarget "PhotoMeta" */;
+			buildPhases = (
+				FDAED50C22EC7CC200FE61EA /* Sources */,
+				FDAED50D22EC7CC200FE61EA /* Frameworks */,
+				FDAED50E22EC7CC200FE61EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoMeta;
+			productName = PhotoMeta;
+			productReference = FDAED51022EC7CC200FE61EA /* PhotoMeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDAED52322EC7CC300FE61EA /* PhotoMetaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAED53B22EC7CC300FE61EA /* Build configuration list for PBXNativeTarget "PhotoMetaTests" */;
+			buildPhases = (
+				FDAED52022EC7CC300FE61EA /* Sources */,
+				FDAED52122EC7CC300FE61EA /* Frameworks */,
+				FDAED52222EC7CC300FE61EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAED52622EC7CC300FE61EA /* PBXTargetDependency */,
+			);
+			name = PhotoMetaTests;
+			productName = PhotoMetaTests;
+			productReference = FDAED52422EC7CC300FE61EA /* PhotoMetaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDAED52E22EC7CC300FE61EA /* PhotoMetaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDAED53E22EC7CC300FE61EA /* Build configuration list for PBXNativeTarget "PhotoMetaUITests" */;
+			buildPhases = (
+				FDAED52B22EC7CC300FE61EA /* Sources */,
+				FDAED52C22EC7CC300FE61EA /* Frameworks */,
+				FDAED52D22EC7CC300FE61EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDAED53122EC7CC300FE61EA /* PBXTargetDependency */,
+			);
+			name = PhotoMetaUITests;
+			productName = PhotoMetaUITests;
+			productReference = FDAED52F22EC7CC300FE61EA /* PhotoMetaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDAED50822EC7CC200FE61EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Veasna Sreng";
+				TargetAttributes = {
+					FDAED50F22EC7CC200FE61EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
+					};
+					FDAED52322EC7CC300FE61EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FDAED50F22EC7CC200FE61EA;
+					};
+					FDAED52E22EC7CC300FE61EA = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FDAED50F22EC7CC200FE61EA;
+					};
+				};
+			};
+			buildConfigurationList = FDAED50B22EC7CC200FE61EA /* Build configuration list for PBXProject "PhotoMeta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FDAED50722EC7CC200FE61EA;
+			productRefGroup = FDAED51122EC7CC200FE61EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDAED50F22EC7CC200FE61EA /* PhotoMeta */,
+				FDAED52322EC7CC300FE61EA /* PhotoMetaTests */,
+				FDAED52E22EC7CC300FE61EA /* PhotoMetaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDAED50E22EC7CC200FE61EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAED56B22ED229400FE61EA /* lgn.strings in Resources */,
+				FDAED51E22EC7CC300FE61EA /* LaunchScreen.storyboard in Resources */,
+				FDAED51B22EC7CC300FE61EA /* Assets.xcassets in Resources */,
+				FDAED51922EC7CC200FE61EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAED52222EC7CC300FE61EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAED52D22EC7CC300FE61EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDAED50C22EC7CC200FE61EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAED51622EC7CC200FE61EA /* HomeViewController.swift in Sources */,
+				FDAED54822ECB1CA00FE61EA /* UIColumnFlowLayout.swift in Sources */,
+				FDAED57F22F3293500FE61EA /* UIImageView.swift in Sources */,
+				FDA6FB4B22F9AD3F00DC2B7D /* UIZoomNavigationControllerViewController.swift in Sources */,
+				FDAED57022EF425300FE61EA /* UIPhotoCellHeader.swift in Sources */,
+				FD20F54B2300F5050062E85E /* PhotoMetadata.swift in Sources */,
+				FDAED54222EC98E700FE61EA /* UIPhotoCell.swift in Sources */,
+				FDAED51422EC7CC200FE61EA /* AppDelegate.swift in Sources */,
+				FD20F55023012CD70062E85E /* PHAsset.swift in Sources */,
+				FDAED58522F53E0500FE61EA /* UIZoomTransitionAnimator.swift in Sources */,
+				FD20F54E230121AD0062E85E /* CGFloat.swift in Sources */,
+				FD20F54922FA7B330062E85E /* PhotoDetailView.swift in Sources */,
+				FDAED58122F471D700FE61EA /* FullPhotoViewController.swift in Sources */,
+				FDAED57C22F3261200FE61EA /* PhotoDataCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAED52022EC7CC300FE61EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAED52922EC7CC300FE61EA /* PhotoMetaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAED52B22EC7CC300FE61EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAED53422EC7CC300FE61EA /* PhotoMetaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDAED52622EC7CC300FE61EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAED50F22EC7CC200FE61EA /* PhotoMeta */;
+			targetProxy = FDAED52522EC7CC300FE61EA /* PBXContainerItemProxy */;
+		};
+		FDAED53122EC7CC300FE61EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDAED50F22EC7CC200FE61EA /* PhotoMeta */;
+			targetProxy = FDAED53022EC7CC300FE61EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDAED51722EC7CC200FE61EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAED51822EC7CC200FE61EA /* Base */,
+				FDAED57922F1D66000FE61EA /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDAED51C22EC7CC300FE61EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAED51D22EC7CC300FE61EA /* Base */,
+				FDAED56822ED21CB00FE61EA /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FDAED56D22ED229400FE61EA /* lgn.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDAED56C22ED229400FE61EA /* en */,
+			);
+			name = lgn.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDAED53622EC7CC300FE61EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDAED53722EC7CC300FE61EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDAED53922EC7CC300FE61EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XMQ9F3P9G;
+				INFOPLIST_FILE = PhotoMeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = photometa.app.PhotoMeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDAED53A22EC7CC300FE61EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XMQ9F3P9G;
+				INFOPLIST_FILE = PhotoMeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = photometa.app.PhotoMeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDAED53C22EC7CC300FE61EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoMetaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = photometa.app.PhotoMetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMeta.app/PhotoMeta";
+			};
+			name = Debug;
+		};
+		FDAED53D22EC7CC300FE61EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoMetaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = photometa.app.PhotoMetaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMeta.app/PhotoMeta";
+			};
+			name = Release;
+		};
+		FDAED53F22EC7CC300FE61EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoMetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = photometa.app.PhotoMetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoMeta;
+			};
+			name = Debug;
+		};
+		FDAED54022EC7CC300FE61EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotoMetaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = photometa.app.PhotoMetaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoMeta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDAED50B22EC7CC200FE61EA /* Build configuration list for PBXProject "PhotoMeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAED53622EC7CC300FE61EA /* Debug */,
+				FDAED53722EC7CC300FE61EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAED53822EC7CC300FE61EA /* Build configuration list for PBXNativeTarget "PhotoMeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAED53922EC7CC300FE61EA /* Debug */,
+				FDAED53A22EC7CC300FE61EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAED53B22EC7CC300FE61EA /* Build configuration list for PBXNativeTarget "PhotoMetaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAED53C22EC7CC300FE61EA /* Debug */,
+				FDAED53D22EC7CC300FE61EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDAED53E22EC7CC300FE61EA /* Build configuration list for PBXNativeTarget "PhotoMetaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDAED53F22EC7CC300FE61EA /* Debug */,
+				FDAED54022EC7CC300FE61EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDAED50822EC7CC200FE61EA /* Project object */;
+}

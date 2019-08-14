@@ -1,0 +1,29 @@
+/* 
+  lgn.strings
+  PhotoMeta
+
+  Created by Veasna Sreng on 7/28/19.
+  Copyright © 2019 Veasna Sreng. All rights reserved.
+*/
+
+"SELECT_BUTTON" = "Select";
+
+"SORT_BUTTON" = "Sort";
+
+"SORT_CHOICE" = "Choose sort order";
+
+"SORT_ASCENDING" = "Ascending";
+
+"SORT_DESCENDING" = "Descending";
+
+"PHOTO_PERMISSION_MESSAGE" = "PhotoMeta required permission to access photo library in order to modify photo metadata.";
+
+"ALL_SELECTED" = "All";
+
+"DELETE_METADATA_MESSAGE" = "Do you want to remove sensitive metadata ?";
+
+"DELETE_METADATA_CONFIRM" = "Remove Sensitive Metadata";
+
+"YES" = "Yes";
+
+"NO" = "No";

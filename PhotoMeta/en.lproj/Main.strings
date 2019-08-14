@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "F82-dd-cbr"; */
+"F82-dd-cbr.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Deselect All"; ObjectID = "OLb-it-cc0"; */
+"OLb-it-cc0.normalTitle" = "Deselect All";
+
+/* Class = "UIButton"; normalTitle = "Select All"; ObjectID = "PTq-FL-TgA"; */
+"PTq-FL-TgA.normalTitle" = "Select All";
+
+/* Class = "UINavigationItem"; title = "PhotoMeta"; ObjectID = "QRI-lT-Ih5"; */
+"QRI-lT-Ih5.title" = "PhotoMeta";
