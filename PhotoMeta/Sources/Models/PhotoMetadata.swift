@@ -113,7 +113,7 @@ class PhotoMetadata {
         formatter.countStyle = .binary
         let humanReadableFileSize = formatter.string(fromByteCount: Int64(filesize))
         
-        let megaPixel = floor((self.imgSize.width * self.imgSize.height) / 1000000)
+        let megaPixel = floor((self.imgSize.width * self.imgSize.height) / 1048576)
         return "\(megaPixel)MP ・ \(self.imgSize.width.clean)x\(self.imgSize.height.clean)px ・ \(humanReadableFileSize)"
     }
 }

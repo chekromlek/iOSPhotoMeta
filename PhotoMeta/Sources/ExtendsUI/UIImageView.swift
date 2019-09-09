@@ -15,10 +15,10 @@ enum TransitionMode {
 }
 
 extension UIImageView {
-  
+    
     func fetchImage(asset: PHAsset, targetSize: CGSize?, contentMode: PHImageContentMode) {
         let options = PHImageRequestOptions()
-        options.version = .original
+        options.version = .current
         
         var requestTargetSize = targetSize
         if targetSize == nil {
@@ -30,18 +30,18 @@ extension UIImageView {
                                               targetSize: requestTargetSize!,
                                               contentMode: contentMode,
                                               options: options) { (image, _) in
-            guard let image = image else { return }
-            switch contentMode {
-            case .aspectFill:
-                self.contentMode = .scaleAspectFill
-                
-            case .aspectFit:
-                self.contentMode = .scaleAspectFit
-                
-            @unknown default:
-                fatalError()
-            }
-            self.image = image
+                                                guard let image = image else { return }
+                                                switch contentMode {
+                                                case .aspectFill:
+                                                    self.contentMode = .scaleAspectFill
+ 
+                                                case .aspectFit:
+                                                    self.contentMode = .scaleAspectFit
+ 
+                                                @unknown default:
+                                                    fatalError()
+                                                }
+                                                self.image = image
         }
     }
     
